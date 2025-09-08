@@ -3,7 +3,7 @@ pipeline { //test
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'master', url: 'https://github.com/nawaf83/hello-world-java-3.git'
+                git branch: 'master', url: 'https://github.com/ElvisRamon/hello-world-java-2'
             }
         }
         stage('Build') {
