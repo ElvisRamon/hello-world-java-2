@@ -1,4 +1,4 @@
-pipeline { //test
+pipeline { //test2
     agent any
     stages {
         stage('Checkout') {
